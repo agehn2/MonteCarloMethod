@@ -1,0 +1,11 @@
+1.Why do we multiply the value from (your overlapping points ratio) by 4?
+-Because you are only taking one quadrant of a circle, which is split into 4 corners. 
+2.What do you observe in the output when running your program with parameters of increasing size?
+-The more iterations ran, the closer the results.
+3.If you run the program multiple times with the same parameter, does the output remain the same? Why or why not?
+-No. There is a random number generator, so it will always be a little different.
+4.Find a parameter that requires multiple seconds of run time. What is that parameter? How accurate is the estimated value of Pi?
+-20,000,000 iterations took around 2 seconds. Result with absolute differenece of 0.00096.
+5.Research one other use of Monte-Carlo methods. Record it in your exercise submission and be prepared to discuss it in class.
+-Rolling an imaginary dice, and getting a number between 1-100. The casino wins 1-51 and you win 52-100.
+-The casino has a 2% better chance to win
